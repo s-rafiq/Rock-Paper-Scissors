@@ -1,0 +1,11 @@
+@startuml
+abstract class Second.Second {
++ int age
+- String name
++ String getName()
++ void setName(String)
++ {abstract}void hobby()
+}
+
+
+@enduml
